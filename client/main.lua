@@ -1,5 +1,5 @@
-ESX                           = nil
-local PlayerData       = {}
+ESX = nil
+local PlayerData = {}
 
 Citizen.CreateThread(function()
 	while ESX == nil do
@@ -58,21 +58,12 @@ Citizen.CreateThread(function()
 
 					isJacking = false
 					vehicle = nil
-
 				end
 		else
 			isJacking = true
 		end
-
-
-
-
 	end
 end)
-
-
-
-
 
 local isIncarPolice = false
 Citizen.CreateThread(function()
@@ -92,14 +83,10 @@ Citizen.CreateThread(function()
 	end
 end)
 
-
-
-
 local isIncar = false
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
-
 
 		if(IsPedInAnyVehicle(GetPlayerPed(-1)) and not IsPedInAnyPoliceVehicle(GetPlayerPed(-1))) then
 
@@ -119,9 +106,6 @@ Citizen.CreateThread(function()
 
 	end
 end)
-
-
-
 
 local base = 0
 Citizen.CreateThread(function()
@@ -180,8 +164,6 @@ Citizen.CreateThread(function()
         end
     end
 end)
-
-
 
 function GetPlayerByEntityID(id)
 	for i=0,32 do
