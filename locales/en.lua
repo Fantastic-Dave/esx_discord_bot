@@ -1,33 +1,50 @@
 Locales['en'] = {
 	['server'] = 'server',
-	['server_start'] = 'server start',
+	['server_start'] = 'the server has started',
 	['server_chat'] = 'chat',
-
-	['server_connecting'] = 'new connexion',
-	['user_connecting'] = 'is connecting',
-
+	['server_twitter'] = 'TWITTER',
+	   
+	['server_banhammer'] = 'new ban',
+	['banned_by'] = 'has been banned by',
+	['kicked_by'] = 'was kicked by',
+	
+	['server_connecting'] = 'new connection',
+	['user_connecting'] = 'has logged in',
 	['server_disconnecting'] = 'new disconnection',
-	['user_disconnecting'] = 'is disconnecting',
-
-	['server_item_transfer'] = 'new transaction (item)',
-	['server_money_transfer'] = 'new transaction (money)',
-	['server_moneybank_transfer'] = 'new transaction (moneybank)',
+	['user_disconnecting'] = 'is disconnected',
+	['server_item_transfer'] = 'new transaction (object)',
+	['server_money_transfer'] = 'new transaction (cash)',
+	['server_dirtymoney_transfer'] = 'new transaction (dirty money)',
+	['server_moneybank_transfer'] = 'new transaction (bank money)',
 	['server_weapon_transfer'] = 'new transaction (weapon)',
-
-	['user_gives_to'] = 'gives to',
-
-	['server_washingmoney'] = 'washing money alert',
-	['user_washingmoney'] = 'has washed',
-
-	['server_blacklistedvehicle'] = 'blacklisted vehicle alert',
-	['user_entered_in'] = 'entered in :',
-
+	 
+	['server_item_drop'] = 'discarded inventory (object)',
+	['server_money_drop'] = 'inventory thrown (cash)',
+	['server_dirtymoney_drop'] = 'discarded inventory (dirty money)',
+	['server_weapon_drop'] = 'inventory thrown (weapon)',
+	['server_item_pick'] = 'inventory picked up (object)',
+	['server_money_pick'] = 'inventory picked up (cash)',
+	['server_dirtymoney_pick'] = 'inventory picked up (dirty money)',
+	['server_weapon_pick'] = 'inventory picked up (weapon)',
+	['user_gives_to'] = 'gave to',
+	['user_drop'] = 'threw',
+	['user_pick'] = 'picked up',
+	['server_washingmoney'] = 'new money laundering',
+	['user_washingmoney'] = 'has laundered',
+	['server_blacklistedvehicle'] = 'vehicle prohibited alert',
+	['user_entered_in'] = 'entered:',
 	['server_policecar'] = 'police vehicle alert',
 	['server_carjacking'] = 'stolen vehicle alert',
-	['client_carjacking'] = 'has stolen',
-
+	['user_carjacking'] = 'stole',
 	['server_kill'] = 'new death',
-	['client_kill'] = 'has been killed by',
-	['client_kill_environnement'] = 'is dead by suicide or PNJ attack',
-	['with'] ='with',
+	['user_kill'] = 'was killed by',
+	['user_kill_environnement'] = 'died by suicide or NPC attack',
+	['with'] = 'with',
+	  
+	['money'] = '$ cash',
+	['dirty_money'] = '$ dirty money',
+	['server_bank_transfers'] = 'money transfer - bank',
+	['bank'] = '$ to the bank',
+	['withdraw'] = 'withdraw',
+	['deposit'] = 'deposited',
 }
