@@ -3,11 +3,9 @@ Locales['en'] = {
 	['server_start'] = 'the server has started',
 	['server_chat'] = 'chat',
 	['server_twitter'] = 'TWITTER',
-	   
-	['server_banhammer'] = 'new ban',
+	['server_banhammer'] = 'new sanction',
 	['banned_by'] = 'has been banned by',
 	['kicked_by'] = 'was kicked by',
-	
 	['server_connecting'] = 'new connection',
 	['user_connecting'] = 'has logged in',
 	['server_disconnecting'] = 'new disconnection',
@@ -17,7 +15,6 @@ Locales['en'] = {
 	['server_dirtymoney_transfer'] = 'new transaction (dirty money)',
 	['server_moneybank_transfer'] = 'new transaction (bank money)',
 	['server_weapon_transfer'] = 'new transaction (weapon)',
-	 
 	['server_item_drop'] = 'discarded inventory (object)',
 	['server_money_drop'] = 'inventory thrown (cash)',
 	['server_dirtymoney_drop'] = 'discarded inventory (dirty money)',
@@ -40,7 +37,6 @@ Locales['en'] = {
 	['user_kill'] = 'was killed by',
 	['user_kill_environnement'] = 'died by suicide or NPC attack',
 	['with'] = 'with',
-	  
 	['money'] = '$ cash',
 	['dirty_money'] = '$ dirty money',
 	['server_bank_transfers'] = 'money transfer - bank',
